@@ -14,10 +14,6 @@ export const StatList = ({ stats }) => {
 
 export default StatList;
 
-StatList.defaultProps = {
-  stats: [],
-};
-
 StatList.propTypes = {
   stats: PropTypes.arrayOf(
     PropTypes.exact({
